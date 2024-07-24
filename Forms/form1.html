@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration site</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1>!!!Register!!!</h1>
+    <section class="Form">
+        <form action="">
+            <p>
+                <label for="name">Enter your name </label>
+                <input type="text" placeholder="First name" id="name" required>
+                <input type="text" placeholder="Last name" id="name" required>
+            </p>
+            <p>
+                <label for="age">Select your age </label>
+                <select name="Age_group" id="age" required>
+                    <option value="none">none</option>
+                    <option value="below 18">below 18</option>
+                    <option value="above 18">above 18</option>
+                </select>
+            </p>
+            <p>
+                <label for="blood">Select your Blood type </label>
+                <select name="Blood_type" id="blood" required>
+                    <option value="none">none</option>
+                    <option value="O+ve">O+ve</option>
+                    <option value="B+ve">B+ve</option>
+                    <option value="A+ve">A+ve</option>
+                    <option value="AB+ve">AB+ve</option>
+                </select>
+            </p>
+            <p>
+                <label for="mobile">Enter your mobile no.</label>
+                <input type="number" placeholder="eg.122231" id="mobile" minlength="5" maxlength="10" required>
+            </p>
+            <p>
+                <label for="problem">Enter your symptoms:</label>
+                <br>
+                <textarea name="problems" id="problem" class="A" cols="35" rows="8"
+                    placeholder="write your symptoms:"></textarea>
+            </p>
+            <button>Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>

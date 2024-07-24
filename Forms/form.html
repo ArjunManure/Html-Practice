@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="Form">
+        <h1>Vaccination Form</h1>
+        <form action="https://en.wikipedia.org/wiki">
+            <p>
+            <div>
+                <label for="username">Enter Your Name:</label>
+                <input class="abc" type="text" name="username" id="username" placeholder="Username" minlength="5"
+                    maxlength="30" required>
+            </div>
+            </p>
+            <p>
+            <div>
+                <label for="dob">Enter Date Of Birth:</label>
+                <input class="abc" type="date" name="dob" id="dob" required>
+
+            </div>
+            </p>
+            <p>
+            <div>
+                <label for="age">Select the age: </label>
+                <select class="abc" name="age" id="age">
+                    <option value="18+">above 18</option>
+                    <option value="below 18">below 18</option>
+                </select>
+            </div>
+            </p>
+            <p>
+            <div>
+                <label for="select">Have you before taken vaccine</label>
+                <input class="abc" type="checkbox" name="select" id="select" value="yes">
+            </div>
+            </p>
+            <p>Select your size:
+            <div>
+                <input type="radio" class="abcd" name="size" id="xs" value="5">
+                <label for="xs">xs</label>
+
+                <input type="radio" class="abcd" name="size" id="xl" value="20">
+                <label for="xl">xl</label>
+
+                <input type="radio" class="abcd" name="size" id="l" value="10">
+                <label for="l">Large</label>
+            </div>
+            </p>
+            <p>
+                <label for="limit">Select limit:</label>
+                <input type="Range" name="limit" id="limit" min="1" max="20" step="2">
+            </p>
+            <p>
+                <label for="Suggestions">Write any suggestions:</label>
+                <br>
+                <textarea name="suggest" id="suggestions" rows="10" cols="30"
+                    placeholder="Write any suggestions"></textarea>
+            </p>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

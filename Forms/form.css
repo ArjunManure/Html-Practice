@@ -1,0 +1,54 @@
+body {
+    background-image: url(vaccine4.jpg)
+}
+
+h1 {
+    border: 2px dashed black;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    background-color: lightseagreen;
+    color: red;
+}
+
+.Form {
+    border: 2px solid white;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    text-transform: capitalize;
+    text-decoration: black;
+    font-weight: bolder;
+    color: rgb(28, 24, 24);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    border-radius: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.A {
+    color: blue;
+}
+
+button:hover {
+    background-color: rgb(3, 182, 242);
+    color: red;
+    font-size: 16px;
+}
